@@ -1,0 +1,6 @@
+{
+  "name": "d7n",
+  "description": "تطبيق d7n الاحترافي لتسجيل شاشة أندرويد بدقة عالية مع دعم تسجيل الصوت الداخلي والميكروفون.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

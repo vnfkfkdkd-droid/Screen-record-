@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">d7n</string>
+    <string name="app_subtitle">Pro Screen Recorder</string>
+
+    <!-- Navigation -->
+    <string name="nav_studio">Studio</string>
+    <string name="nav_recordings">Recordings</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Status -->
+    <string name="status_ready">Ready to Capture</string>
+    <string name="status_countdown">Starting in %1$d…</string>
+    <string name="status_recording">Recording Live</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_saving">Saving Video…</string>
+
+    <!-- Studio Actions -->
+    <string name="action_start_recording">Start Recording</string>
+    <string name="action_stop_recording">Stop &amp; Save</string>
+    <string name="action_pause_recording">Pause</string>
+    <string name="action_resume_recording">Resume</string>
+    <string name="action_cancel_countdown">Cancel</string>
+
+    <!-- Audio Sources -->
+    <string name="audio_section_title">Audio Source</string>
+    <string name="audio_internal_title">Internal Audio</string>
+    <string name="audio_internal_desc">Capture crisp system, game &amp; app audio with zero room noise</string>
+    <string name="audio_internal_mic_title">Internal + Mic</string>
+    <string name="audio_internal_mic_desc">Mix system playback with live microphone commentary</string>
+    <string name="audio_mic_title">Microphone Only</string>
+    <string name="audio_mic_desc">Record external voice audio from device mic</string>
+    <string name="audio_none_title">No Audio</string>
+    <string name="audio_none_desc">Silent screen video capture only</string>
+    <string name="badge_internal_ready">Internal Audio Ready</string>
+    <string name="badge_android10_plus">Android 10+</string>
+    <string name="internal_audio_unsupported">Internal audio requires Android 10 or higher</string>
+
+    <!-- Quick Specs -->
+    <string name="quick_specs_title">Capture Preset</string>
+    <string name="spec_resolution">Resolution</string>
+    <string name="spec_fps">Frame Rate</string>
+    <string name="spec_countdown">Countdown</string>
+    <string name="spec_audio">Audio</string>
+
+    <!-- Recordings Library -->
+    <string name="recordings_title">Recordings Library</string>
+    <string name="recordings_count_format">%1$d clips</string>
+    <string name="recordings_empty_title">No recordings yet</string>
+    <string name="recordings_empty_desc">Tap Record in the Studio to capture your first high-definition clip with internal audio.</string>
+    <string name="recordings_start_first">Start First Recording</string>
+    <string name="action_play">Play</string>
+    <string name="action_share">Share</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_delete_title">Delete recording?</string>
+    <string name="dialog_delete_message">This clip will be permanently removed from your device.</string>
+    <string name="dialog_rename_title">Rename clip</string>
+    <string name="dialog_rename_hint">File name</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+
+    <!-- Player -->
+    <string name="player_back">Back</string>
+    <string name="player_error">Unable to play this video</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Recorder Settings</string>
+    <string name="settings_video_section">Video Quality</string>
+    <string name="settings_resolution">Resolution</string>
+    <string name="settings_fps">Frame Rate (FPS)</string>
+    <string name="settings_bitrate">Video Bitrate</string>
+    <string name="settings_audio_section">Internal Audio Engine</string>
+    <string name="settings_audio_bitrate">Audio Bitrate</string>
+    <string name="settings_audio_sample_rate">Sample Rate</string>
+    <string name="settings_mic_boost">Microphone Gain Boost</string>
+    <string name="settings_mic_boost_desc">Amplify mic voice when mixing with internal audio</string>
+    <string name="settings_internal_note_title">About Internal Audio Capture</string>
+    <string name="settings_internal_note_body">d7n uses Android AudioPlaybackCapture API to record game and app audio directly. DRM-protected apps that opt out at OS level cannot be captured.</string>
+    <string name="settings_behavior_section">Recording Behavior</string>
+    <string name="settings_countdown">Start Countdown</string>
+    <string name="settings_auto_minimize">Auto-Minimize on Start</string>
+    <string name="settings_auto_minimize_desc">Return to home screen automatically when capture begins</string>
+    <string name="countdown_off">Instant (0s)</string>
+    <string name="countdown_seconds">%1$d sec</string>
+    <string name="about_section_title">About d7n</string>
+    <string name="about_desc">d7n is a high-performance screen recorder engineered for crisp Full HD capture and pure internal audio recording.</string>
+
+    <!-- Permissions & Errors -->
+    <string name="permission_audio_needed">Microphone permission is required by Android to enable internal or mic audio capture.</string>
+    <string name="permission_audio_settings">Grant Permission</string>
+    <string name="error_projection_denied">Screen capture permission was cancelled.</string>
+    <string name="error_recording_failed">Unable to start recording: %1$s</string>
+    <string name="recording_saved_message">Recording saved to d7n library</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Recording Status</string>
+    <string name="notif_channel_desc">Quick controls while d7n is recording your screen</string>
+    <string name="notif_title_recording">d7n • Recording Screen</string>
+    <string name="notif_title_paused">d7n • Recording Paused</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_d7n_logo">d7n app logo</string>
+    <string name="cd_record_button">Start or stop screen recording</string>
+    <string name="cd_pause_button">Pause or resume recording</string>
+    <string name="cd_video_thumbnail">Video thumbnail</string>
+</resources>

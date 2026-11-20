@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">d7n</string>
+    <string name="app_subtitle">مسجل الشاشة الاحترافي</string>
+
+    <!-- Navigation -->
+    <string name="nav_studio">الاستوديو</string>
+    <string name="nav_recordings">التسجيلات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Status -->
+    <string name="status_ready">جاهز للتسجيل</string>
+    <string name="status_countdown">يبدأ التسجيل خلال %1$d…</string>
+    <string name="status_recording">جاري التسجيل</string>
+    <string name="status_paused">متوقف مؤقتاً</string>
+    <string name="status_saving">جاري حفظ الفيديو…</string>
+
+    <!-- Studio Actions -->
+    <string name="action_start_recording">بدء التسجيل</string>
+    <string name="action_stop_recording">إيقاف وحفظ</string>
+    <string name="action_pause_recording">إيقاف مؤقت</string>
+    <string name="action_resume_recording">استئناف</string>
+    <string name="action_cancel_countdown">إلغاء</string>
+
+    <!-- Audio Sources -->
+    <string name="audio_section_title">مصدر الصوت</string>
+    <string name="audio_internal_title">الصوت الداخلي</string>
+    <string name="audio_internal_desc">تسجيل صوت النظام والألعاب والتطبيقات بدون ضوضاء</string>
+    <string name="audio_internal_mic_title">داخلي + ميكروفون</string>
+    <string name="audio_internal_mic_desc">دمج صوت النظام مع صوتك للتعليق والشروحات</string>
+    <string name="audio_mic_title">الميكروفون فقط</string>
+    <string name="audio_mic_desc">تسجيل الصوت الخارجي عبر ميكروفون الهاتف</string>
+    <string name="audio_none_title">بدون صوت</string>
+    <string name="audio_none_desc">تسجيل فيديو صامت للشاشة فقط</string>
+    <string name="badge_internal_ready">يدعم الصوت الداخلي</string>
+    <string name="badge_android10_plus">Android 10+</string>
+    <string name="internal_audio_unsupported">يتطلب الصوت الداخلي نظام Android 10 أو أحدث</string>
+
+    <!-- Quick Specs -->
+    <string name="quick_specs_title">إعدادات البث السريعة</string>
+    <string name="spec_resolution">الدقة</string>
+    <string name="spec_fps">الإطارات</string>
+    <string name="spec_countdown">العد التنازلي</string>
+    <string name="spec_audio">الصوت</string>
+
+    <!-- Recordings Library -->
+    <string name="recordings_title">مكتبة التسجيلات</string>
+    <string name="recordings_count_format">%1$d مقاطع</string>
+    <string name="recordings_empty_title">لا توجد تسجيلات بعد</string>
+    <string name="recordings_empty_desc">اضغط على زر التسجيل في الاستوديو لالتقاط أول مقطع فيديو بدقة عالية وصوت داخلي نقي.</string>
+    <string name="recordings_start_first">ابدأ أول تسجيل</string>
+    <string name="action_play">تشغيل</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_delete">حذف</string>
+    <string name="dialog_delete_title">حذف التسجيل؟</string>
+    <string name="dialog_delete_message">سيتم حذف المقطع نهائياً من ذاكرة الجهاز.</string>
+    <string name="dialog_rename_title">إعادة تسمية المقطع</string>
+    <string name="dialog_rename_hint">اسم الملف</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_save">حفظ</string>
+
+    <!-- Player -->
+    <string name="player_back">رجوع</string>
+    <string name="player_error">تعذر تشغيل هذا الفيديو</string>
+
+    <!-- Settings -->
+    <string name="settings_title">إعدادات التسجيل</string>
+    <string name="settings_video_section">جودة الفيديو</string>
+    <string name="settings_resolution">دقة العرض</string>
+    <string name="settings_fps">معدل الإطارات (FPS)</string>
+    <string name="settings_bitrate">معدل البت (Bitrate)</string>
+    <string name="settings_audio_section">هندسة الصوت الداخلي</string>
+    <string name="settings_audio_bitrate">جودة الصوت</string>
+    <string name="settings_audio_sample_rate">معدل العينة</string>
+    <string name="settings_mic_boost">تضخيم صوت الميكروفون</string>
+    <string name="settings_mic_boost_desc">رفع حساسية الميكروفون عند الدمج مع الصوت الداخلي</string>
+    <string name="settings_internal_note_title">حول تسجيل الصوت الداخلي</string>
+    <string name="settings_internal_note_body">يستخدم d7n واجهة AudioPlaybackCapture الرسمية في أندرويد لالتقاط صوت الألعاب والتطبيقات مباشرة. بعض التطبيقات المحمية بحقوق النشر قد تمنع التقاط صوتها على مستوى النظام.</string>
+    <string name="settings_behavior_section">سلوك التسجيل</string>
+    <string name="settings_countdown">العد التنازلي قبل البدء</string>
+    <string name="settings_auto_minimize">تصغير التطبيق عند البدء</string>
+    <string name="settings_auto_minimize_desc">الانتقال للشاشة الرئيسية تلقائياً فور بدء التسجيل</string>
+    <string name="countdown_off">فوري (0 ث)</string>
+    <string name="countdown_seconds">%1$d ثوانٍ</string>
+    <string name="about_section_title">حول التطبيق</string>
+    <string name="about_desc">d7n هو مسجل شاشة خفيف وعالي الأداء مصمم لالتقاط الشاشة بدقة Full HD مع دعم متقدم للصوت الداخلي.</string>
+
+    <!-- Permissions & Errors -->
+    <string name="permission_audio_needed">مطلوب إذن الميكروفون لتفعيل التقاط الصوت الداخلي أو الخارجي في أندرويد.</string>
+    <string name="permission_audio_settings">منح الإذن</string>
+    <string name="error_projection_denied">تم إلغاء إذن التقاط الشاشة.</string>
+    <string name="error_recording_failed">تعذر بدء التسجيل: %1$s</string>
+    <string name="recording_saved_message">تم حفظ التسجيل في مكتبة d7n</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">حالة التسجيل</string>
+    <string name="notif_channel_desc">إشعار التحكم السريع أثناء تسجيل الشاشة في d7n</string>
+    <string name="notif_title_recording">d7n • جاري تسجيل الشاشة</string>
+    <string name="notif_title_paused">d7n • التسجيل متوقف مؤقتاً</string>
+    <string name="notif_action_pause">إيقاف مؤقت</string>
+    <string name="notif_action_resume">استئناف</string>
+    <string name="notif_action_stop">إيقاف</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_d7n_logo">شعار تطبيق d7n</string>
+    <string name="cd_record_button">بدء أو إيقاف تسجيل الشاشة</string>
+    <string name="cd_pause_button">إيقاف مؤقت أو استئناف التسجيل</string>
+    <string name="cd_video_thumbnail">صورة مصغرة للفيديو</string>
+</resources>
